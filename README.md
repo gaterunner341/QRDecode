@@ -4,4 +4,4 @@ Investigating Quishing emails (phishing involving a QR code) can be intimidating
 A colleague of mine made a quick-down-and dirty Python script importing a powerful Python library called QRTools. I took advantage of his code, and modified his script to work with BASH, with the output piped into IOC-Fanger.
 
 Script use:
-bash QRCode.sh [QR Code File Name.jpg]
+bash QRDecode.sh [QR Code File Name.jpg]
